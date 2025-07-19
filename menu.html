@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-attachment: fixed;
+        background-color: #adc8cd;
+    }
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+    p {
+        text-align: center;
+        color: #666;
+    }
+    nav {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin-right: 15px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: #007bff;
+    }
+    .section {
+        margin-bottom: 40px;
+    }
+    .menu-category {
+        margin-bottom: 20px;
+    }
+    .menu-item {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .menu-item span {
+        display: inline-block;
+        width: 200px;
+    }
+    .menu-item p {
+        margin: 0;
+        color: #555;
+    }
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    form input, form select, form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    form button {
+        padding: 10px 15px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    form button:hover {
+        background-color: #218838;
+    }
+    footer {
+        text-align: center;
+        margin-top: 40px;
+        color: #999;
+    }
+
+</style>
+  
+
+
+
+<body>
+    <h1>The Dinning</h1>
+    <p>Enjoy your dining experience with us!</p>
+    <p>Explore our menu and make a reservation.</p>
+    <nav>
+        <ul>
+            <li><a href="#menu">Menu</a> </li>
+            <li><a href="#reservation">Reservation</a></li>
+            <li><a href="#events">Events </a></li>
+        </ul>
+    </nav>
+        <section id="menu" class="section">
+            <div class="menu-category">
+            <h3>Starters</h3>
+                <b><div class="menu-item"><span>Palourdes au Gratin...............</span></div></b>
+                <p>Clams baked with garlic butter and herbs.</p><br>
+
+
+                <b><div class="menu-item"><span>Moules a la Mariniere.........</span></div></b>
+                <p>Mussels steamed in white wine, garlic, and herbs.</p><br>
+               <b> <div class="menu-item"><span> Yellow Sashimi............</span></div></b>
+                <p>Fresh yellowtail sashimi served with ponzu sauce.</p><br>
+                <b><div class="menu-item"><span>Salmon Tartare................</span></div></b>
+                <p>Finely chopped salmon with avocado and lime.</p><br>
+            </div>
+
+
+            <div class="menu-category">
+                <h3>Main Courses</h3>
+                <b><div class="menu-item"><span>Grilled Salmon..................</span></div></b>
+                <p>Salmon fillet grilled to perfection with lemon butter sauce.</p><br>
+                <b><div class="menu-item"><span>Beef Wellington.................</span></div></b>
+                <p>Beef tenderloin wrapped in puff pastry with mushroom duxelles.</p><br>
+                <b><div class="menu-item"><span>Vegetable Risotto................</span></div></b>
+                <p>Creamy risotto with seasonal vegetables and parmesan.</p><br>
+                <b><div class="menu-item"><span>Chicken Coq au Vin.............</span></div></b>
+                <p>Chicken braised in red wine with mushrooms and onions.</p><br>
+                <b><div class="menu-item"><span>Seafood Paella..................</span></div></b>
+                <p>Traditional Spanish rice dish with shrimp, mussels, and calamari.</p><br>
+            </div>
+
+            <div class="menu-category">
+                <h3>Desserts</h3>
+                <b><div class="menu-item"><span>Chocolate Fondant..............</span></div></b>
+                <p>Warm chocolate cake with a molten center, served with vanilla ice cream.</p><br>
+                <b><div class="menu-item"><span>Tarte Tatin.........................</span></div></b>
+                <p>Upside-down caramelized apple tart served with crème fraîche.</p><br>
+                <b><div class="menu-item"><span>Crème Brûlée.........................</span></div></b>
+                <p>Classic French dessert with a caramelized sugar crust.</p><br>
+                </div>
+                
+        </section>
+
+
+
+
+        <section id="reservation" class="section">
+            <h2>Make a Reservation</h2>
+            <p>To reserve a table, please call us at <strong>(123) 456-7890</strong> or fill out our online form.</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>  
+                <input type="date" placeholder="Reservation Date" required>
+                <input type="time" placeholder="Reservation Time" required>
+                <select>
+                    <option value="1">1 Person</option>
+                    <option value="2">2 People</option>
+                    <option value="3">3 People</option>
+                    <option value="4">4 People</option>
+                    <option value="5">5 People</option>
+                    <option value="5+">5+ People</option>
+                </select>
+                <textarea placeholder="Any Special Requests??" rows="4"></textarea>
+                <button type="submit">Reserve Now</button>
+
+            </form>
+        </section>
+
+        <section id ="events" class="section">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li>Wine Tasting Night - Every Friday at 7 PM</li>
+                <li>Live Jazz Music - Saturday Nights</li>
+                <li>Cooking Classes - Every Sunday at 3 PM</li>
+                <li>Seasonal Menu Launch - First Monday of Each Month</li>
+            </ul>
+        </section>
+    <footer>
+        <p>&copy; 2025 The Dinning. All rights reserved.</p>
+        <p>Last updated: July 2025</p>
+    </footer>
+</body>
+
+
+
+</html>
